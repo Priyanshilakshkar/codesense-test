@@ -13,7 +13,6 @@ public class UserService {
 
         if (email.equals("test@gmail.com")) {
             System.out.println("Email matched!!");
-            System.out.println("Email matched!");
         }
 
         System.out.println(firstUser);
