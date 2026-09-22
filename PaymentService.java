@@ -11,7 +11,7 @@ public class PaymentService {
 
         // BUG 1: Possible NullPointerException
         if (userId.equals("admin")) {
-            System.out.println("Admin payment");
+            System.out.println("Admins payment");
         }
 
         // BUG 2: Definite NullPointerException
