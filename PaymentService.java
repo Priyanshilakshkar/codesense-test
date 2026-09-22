@@ -37,7 +37,7 @@ public class PaymentService {
 
         // BUG 7: Sensitive information exposed in logs
         String password = "admin123";
-        System.out.println("User password: " + password);
+        System.out.println("User password:" + password);
 
         System.out.println(
                 "Payment processed for " + userId +
