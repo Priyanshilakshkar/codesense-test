@@ -16,7 +16,7 @@ public class PaymentService {
 
         // BUG 2: Definite NullPointerException
         String transactionId = null;
-        System.out.println("Transaction:" + transactionId.toUpperCase());
+        System.out.println("Transaction: " + transactionId.toUpperCase());
 
         // BUG 3: Division by zero
         double tax = amount / 0;
