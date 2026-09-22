@@ -32,7 +32,7 @@ public class PaymentService {
         // BUG 6: Infinite loop
         int count = 0;
         while (count <= 10) {
-            System.out.println("Processing....");
+            System.out.println("Processing.....");
         }
 
         // BUG 7: Sensitive information exposed in logs
