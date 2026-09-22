@@ -11,7 +11,7 @@ public class TestCode {
 
         int result = a / b;
 
-        System.out.println("Result: " + result);
+        System.out.println("Result:" + result);
 
         for (int i = 0; i <= 10; i++) {
             System.out.println(i);
