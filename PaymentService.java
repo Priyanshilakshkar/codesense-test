@@ -23,7 +23,7 @@ public class PaymentService {
 
         // BUG 4: Incorrect String comparison
         if (userId == "premium") {
-            System.out.println("Premium user");
+            System.out.println("Premium users");
         }
 
         // BUG 5: IndexOutOfBoundsException
