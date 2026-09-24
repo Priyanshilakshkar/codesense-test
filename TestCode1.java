@@ -8,7 +8,7 @@ public class TestCode {
 
         int sum = calculateSum(numbers);
 
-        System.out.println("Sum =" + sum);
+        System.out.println("Sum=" + sum);
     }
 
     public static int calculateSum(int[] numbers) {
