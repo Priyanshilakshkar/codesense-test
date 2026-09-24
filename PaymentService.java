@@ -11,12 +11,12 @@ public class PaymentService {
 
         // BUG 1: Possible NullPointerException
         if (userId.equals("admin")) {
-            System.out.println("Admins payment");
+            System.out.println("Admins payments");
         }
 
         // BUG 2: Definite NullPointerException
         String transactionId = null;
-        System.out.println("Transaction:" + transactionId.toUpperCase());
+        System.out.println("Transaction: " + transactionId.toUpperCase());
 
         // BUG 3: Division by zero
         double tax = amount / 0;
@@ -32,12 +32,12 @@ public class PaymentService {
         // BUG 6: Infinite loop
         int count = 0;
         while (count <= 10) {
-            System.out.println("Processing....");
+            System.out.println("Processing.....");
         }
 
         // BUG 7: Sensitive information exposed in logs
         String password = "admin123";
-        System.out.println("User password: " + password);
+        System.out.println("User password:" + password);
 
         System.out.println(
                 "Payment processed for " + userId +
