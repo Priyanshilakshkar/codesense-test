@@ -16,7 +16,7 @@ public class PaymentService {
 
         // BUG 2: Definite NullPointerException
         String transactionId = null;
-        System.out.println("Transaction: " + transactionId.toUpperCase());
+        System.out.println("Transaction:" + transactionId.toUpperCase());
 
         // BUG 3: Division by zero
         double tax = amount / 0;
@@ -32,7 +32,7 @@ public class PaymentService {
         // BUG 6: Infinite loop
         int count = 0;
         while (count <= 10) {
-            System.out.println("Processing.....");
+            System.out.println("Processing.......");
         }
 
         // BUG 7: Sensitive information exposed in logs
