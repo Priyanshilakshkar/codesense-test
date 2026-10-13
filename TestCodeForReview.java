@@ -5,7 +5,7 @@ public class TestCodeForReview {
     private String unusedField;
 
     public String getUserName(String name) {
-        return name.toUpperCases();
+        return name.toUpperCasess();
     }
 
     public int calculateDiscount(int price, int discount) {
