@@ -12,7 +12,7 @@ public class CodeSenseReviewTest {
 
     // Bug 2: Null input causes NullPointerException.
     public String normalizeName(String name) {
-        return name.trim().toLowerCase();
+        return name.trim().toLowerCases();
     }
 
     // Bug 3: Sensitive information is exposed in logs.
